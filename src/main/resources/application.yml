@@ -3,8 +3,7 @@
 # @from <a href="https://yupi.icu">编程导航知识星球</a>
 spring:
   application:
-    name: springboot-init
-  # 默认 dev 环境
+    name: yuoj-bachend  # 默认 dev 环境
   profiles:
     active: dev
   # 支持 swagger3
@@ -100,4 +99,4 @@ knife4j:
       default:
         api-rule: package
         api-rule-resources:
-          - com.yupi.springbootinit.controller
+          - com.yupi.yuoj.controller
